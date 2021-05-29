@@ -1,7 +1,17 @@
-@import 'vars';
-@import 'fonts';
-@import 'reset';
-@import 'libs';
-@import 'global';
+@import "vars";
+@import "fonts";
+@import "reset";
+@import "libs";
+@import "global";
 
-
+.form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  &__image-box {
+    width: 560px;
+    height: 500px;
+    background-image: url("../images/form-img-bg.jpg");
+    background-position: center;
+  }
+}
