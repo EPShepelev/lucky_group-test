@@ -96,6 +96,10 @@
   }
   &__input-lang {
     padding: 16px 20px;
+    appearance: none;
+    padding-right: 50px;
+    background: url("../images/dropdown.svg") no-repeat right 15px top 50%,
+      url("../images/flag.jpg") no-repeat left 55px top 50%, #f8f8f8;
   }
   &__btn {
     padding: 12px 20px;
@@ -124,4 +128,11 @@
       left: 265px;
     }
   }
+}
+
+select.form__input-lang {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
 }
