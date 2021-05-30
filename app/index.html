@@ -32,7 +32,7 @@
             <div class="form__content">
               <h1 class="form__title">Сделай шаг к выздоровлению</h1>
               <form class="form__data">
-                <div class="form__input-namebox">
+                <div class="form__input-inner">
                   <label class="form__label">Ваше <span>имя</span></label>
                   <input
                     class="form__input-name"
@@ -40,19 +40,21 @@
                     placeholder="Алексей"
                   />
                 </div>
-                <div class="form__input-telbox">
+                <div class="form__input-inner">
                   <label class="form__label">Ваш <span>телефон </span></label>
-                  <input
-                    class="form__input-tel"
-                    type="tel"
-                    placeholder="+7 (123) 456 78-90"
-                  />
-                  <select class="form__input-lang">
-                    <option>RU</option>
-                    <option>Lang2</option>
-                    <option>Lang3</option>
-                    <option>Lang4</option>
-                  </select>
+                  <div class="form__input-telbox">
+                    <input
+                      class="form__input-tel"
+                      type="tel"
+                      placeholder="+7 (123) 456 78-90"
+                    />
+                    <select class="form__input-lang">
+                      <option>RU</option>
+                      <option>Lang2</option>
+                      <option>Lang3</option>
+                      <option>Lang4</option>
+                    </select>
+                  </div>
                 </div>
 
                 <button class="form__btn" type="submit">Заказать</button>
