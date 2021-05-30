@@ -55,10 +55,40 @@
   &__input-inner {
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
   }
   &__input-telbox {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  &__label {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    span {
+      color: #428a60;
+    }
+  }
+  &__input-name,
+  &__input-tel {
+    padding: 16px 96px 16px 20px;
+    background: #f8f8f8;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    &::placeholder {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: rgba(#212121, 0.2);
+    }
+  }
+  &__input-tel {
+    padding: 16px 96px 16px 20px;
+    margin-right: 20px;
   }
 }
