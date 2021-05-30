@@ -52,9 +52,13 @@
     background-color: #f8f8f8;
     margin-bottom: 55px;
   }
-  &__input-namebox,
-  &__input-telbox {
+  &__input-inner {
     display: flex;
     flex-direction: column;
+  }
+  &__input-telbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
