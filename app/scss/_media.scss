@@ -14,6 +14,9 @@
       display: block;
       margin: 0 auto;
     }
+    &__image-box {
+      position: relative;
+    }
     &__image-top,
     &__image-bottom {
       margin-top: 40px;
@@ -24,7 +27,8 @@
       margin-left: 0;
     }
     &__image-bottom {
-      margin: 40px 0 10px 140px;
+      position: absolute;
+      right: 0;
     }
     &__title {
       padding: 0px 0px;
