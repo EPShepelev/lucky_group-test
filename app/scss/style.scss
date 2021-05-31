@@ -18,6 +18,9 @@
     margin-left: 60px;
     margin-right: 40px;
   }
+  &__image-mobile {
+    display: none;
+  }
   &__image-top,
   &__image-bottom {
     display: inline-block;
