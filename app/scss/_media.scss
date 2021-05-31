@@ -12,18 +12,45 @@
     }
     &__image-mobile {
       display: block;
+      margin: 0 auto;
     }
     &__image-top,
     &__image-bottom {
-      display: inline-block;
       margin-top: 40px;
-      margin-left: 40px;
-      margin-bottom: 150px;
+      margin-bottom: 10px;
       color: inherit;
-      font-family: "Montserrat", sans-serif;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 23px;
+    }
+    &__image-top {
+      margin-left: 0;
+    }
+    &__image-bottom {
+      margin: 40px 0 10px auto;
+    }
+    &__title {
+      padding: 0px 0px;
+      background-color: #fff;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+    &__data {
+      width: 280px;
+    }
+    &__input-name {
+      padding: 16px 40px 16px 20px;
+    }
+    &__input-tel {
+      padding: 16px 5px 16px 5px;
+      margin-right: 10px;
+    }
+    &__input-lang {
+      padding: 16px 5px;
+      appearance: none;
+    }
+    &__btn {
+      margin-bottom: 40px;
+      &::before {
+        left: 190px;
+      }
     }
   }
 }
