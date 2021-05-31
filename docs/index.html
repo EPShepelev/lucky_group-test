@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <main class="main">
+        <div class="container">
+          <div class="form">
+            <div class="form__inner">
+              <div class="form__image-box">
+                <span class="form__image-top">Reduslim</span>
+                <img
+                  class="form__image-img"
+                  src="images/form-img.png"
+                  alt="reduslim"
+                />
+                <span class="form__image-bottom">ECO</span>
+                <img
+                  class="form__image-mobile"
+                  src="./images/mobile-bg.png"
+                  alt="reduslim"
+                />
+              </div>
+            </div>
+
+            <div class="form__content">
+              <h1 class="form__title">Сделай шаг к выздоровлению</h1>
+              <form class="form__data">
+                <div class="form__input-inner">
+                  <label class="form__label">Ваше <span>имя</span></label>
+                  <input
+                    class="form__input-name"
+                    type="text"
+                    placeholder="Алексей"
+                  />
+                </div>
+                <div class="form__input-inner">
+                  <label class="form__label">Ваш <span>телефон </span></label>
+                  <div class="form__input-telbox">
+                    <input
+                      class="form__input-tel"
+                      type="tel"
+                      placeholder="+7 (123) 456 78-90"
+                    />
+                    <select class="form__input-lang">
+                      <option>RU</option>
+                      <option>Lang2</option>
+                      <option>Lang3</option>
+                      <option>Lang4</option>
+                    </select>
+                  </div>
+                </div>
+                <button class="form__btn" type="submit">Заказать</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="form__footer">
+          <div>Trusted</div>
+          <img src="./images/lock.svg" alt="secure" />
+          <div>Secure</div>
+        </div>
+      </main>
+    </div>
+
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
