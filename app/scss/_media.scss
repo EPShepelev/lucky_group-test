@@ -41,10 +41,15 @@
     &__input-tel {
       padding: 16px 5px 16px 5px;
       margin-right: 10px;
+      max-width: 175px;
+      width: 100%;
     }
     &__input-lang {
       padding: 16px 5px;
-      appearance: none;
+      max-width: 95px;
+      width: 100%;
+      background: url("../images/dropdown.svg") no-repeat right 7px top 50%,
+        url("../images/flag.jpg") no-repeat left 35px top 50%, #f8f8f8;
     }
     &__btn {
       margin-bottom: 30px;
