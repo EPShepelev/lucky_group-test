@@ -1,2 +1,11 @@
-@media (max-width: 320px) {
+@media (max-width: 340px) {
+  .form {
+    flex-direction: column;
+    &__inner {
+      background: none;
+    }
+    &__image-img {
+      display: none;
+    }
+  }
 }
