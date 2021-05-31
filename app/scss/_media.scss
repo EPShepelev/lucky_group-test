@@ -1,4 +1,7 @@
 @media (max-width: 340px) {
+  .container {
+    padding: 0 20px;
+  }
   .form {
     flex-direction: column;
     &__inner {
@@ -6,6 +9,21 @@
     }
     &__image-img {
       display: none;
+    }
+    &__image-mobile {
+      display: block;
+    }
+    &__image-top,
+    &__image-bottom {
+      display: inline-block;
+      margin-top: 40px;
+      margin-left: 40px;
+      margin-bottom: 150px;
+      color: inherit;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 23px;
     }
   }
 }
